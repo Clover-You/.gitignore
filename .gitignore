@@ -28,7 +28,7 @@ Cargo.lock
 # ++++++++++++++++++++++++++++++++++++ Misc ++++++++++++++++++++++++++++++++++++
 
 # This is a hidden file created by macOS to store custom attributes of a folder, such as icon positions and background image selections.
-.DS_Store
+**/.DS_Store
 *.pem
 
 # local env files
@@ -73,3 +73,9 @@ lerna-debug.log*
 
 # vue
 /dist
+
+# Nuxt.js build / generate output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
